@@ -1,0 +1,116 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.custom-bg-light {
+  background-color: rgba(0, 0, 0, 0) !important;
+  transition: background-color 0.25s;
+}
+
+.bg-dark {
+  transition: background-color 0.25s;
+}
+
+p,
+li {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.1rem;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background-image: url("../images/hero.png");
+  /* background-size: cover; */
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.hero-section .col {
+  padding-top: 15rem;
+  color: white
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+}
+
+.hero-section lead {
+  font-size: 1.5rem;
+}
+
+.section-biography {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.section-ieeeactivities {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.section-ieeeactivities li {
+  margin-bottom: 1rem;
+}
+
+.section-positionstatement {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.section-positionstatement li {
+  margin-bottom: 1rem;
+}
+
+.section-feedback {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.sociallink {
+  color: #212529;
+}
+
+.sociallink:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.section-biography h1,
+.section-ieeeactivities h1,
+.section-positionstatement h1,
+.section-feedback {
+  padding-top: 7rem;
+}
+
+.footer {
+  background-color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .hero-section {
+    min-height: auto;
+    background-image: none;
+  }
+
+  .hero-section .col {
+    padding-top: 3rem !important;
+  }
+
+  .section-biography h1 {
+    padding-top: 1rem;
+    font-size: 2.2rem;
+    padding-bottom: 1rem !important;
+  }
+
+  .section-biography p {
+    padding-top: 2rem;
+  }
+
+}
